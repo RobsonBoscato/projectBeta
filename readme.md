@@ -31,6 +31,9 @@ Adicionado recursos a pagina login.php como:
 <li>Adição/redirecionamento ao painel.php após validação do login;</li>
 <li>Adição de logout, e redirecionamento ao index.php;</li>
 <li>Adicionado o protect.php com a finalidade de evitar acesso indevido a área logada via URL; </li>
+<li>Adicionado o cadastro.php para incluir usuários no DB</li>
+<li>Ajustado esquema de cores via CSS</li>
+<li> </li>
 <li> </li>
 
 </ol>

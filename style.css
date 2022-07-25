@@ -1,30 +1,59 @@
 body {
   font-family: 'Open Sans', sans-serif;
-  background-color: rgb(236, 255, 223);
+  background-color: rgb(38, 45, 54);
+  color:white;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
-header, footer {
-  background-color: rgb(121, 194, 154);
-  color: rgb(0, 0, 0);
+footer, .top, h2 {
+  background-color: rgba(155, 108, 76, 0.979);
+  border-radius: 20px;
   font-weight: 400;
   text-align: center;
-  margin: 0 4%;
-  padding: 10px 10px;
+  margin: 5px 4%;
+  padding-top: 5px;
 }
 
-nav {
+nav, a {
   display: flex;
-  gap: 10px;
+  align-content: flex-start;
+  justify-content: space-around;
+}
+
+nav ul, a {
+  display: inline-flex;
+  gap: 80px;
+}
+
+nav ul li a, a {
+  color: #FFFFFF;
+  font-size: 20px;
+  text-decoration: none;
+  align-content: center;
+}
+
+nav ul li a:hover, a:hover {
+  color:  rgba(155, 108, 76, 0.979);
+  font-weight: 800;
+}
+
+.top {
+  padding-bottom: 10px;
 }
 
 .center {
-padding: 2px 4%;
+  padding: 20px 10%;
 }
 
 .center span {
-  font-weight: 600;
-  color: rgb(0, 0, 0);
-  padding-bottom: 20px;
+  display: flex;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 20px;
+  color: rgba(155, 108, 76, 0.979);
+  margin-bottom: 20px;
+  margin-top: 40px;
 }
 
 footer img {
@@ -34,4 +63,28 @@ footer img {
 
 form {
   text-align: center;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 20px;
+  max-width: 400px;
+  line-height: 40px;
+  margin: 30px auto;
+}
+
+input, label {
+  text-align: center;
+  border-radius: 5px;
+  height: 30px;
+  width: 200px;
+  padding: 5px;
+}
+
+a{
+  margin: 5px 5px 5px 5px;
+}
+
+fieldset {
+  justify-items: center;
 }

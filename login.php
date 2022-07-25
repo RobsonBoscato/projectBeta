@@ -40,19 +40,26 @@ if (isset($_POST['email']) || isset($_POST['senha'])) {
 <link rel="stylesheet" href="style.css">
 
 <form id="form" action="" method="post">
-  <h1>Acesse a sua conta</h1>
+  <h2>Acesse a sua conta</h2>
 
-  <p>
-  <label for="email">Insira seu E-mail de acesso</label>
-  <input type="email" name="email" id="email">
-  </p>
-
-  <p>
-  <label for="password">Insira sua senha</label>
-  <input type="password" name="password" id="password">
-  </p>
-
-  <input type="submit" value="Entrar">
+  <fieldset>
+    <p>
+    <label for="email">Insira seu E-mail de acesso</label>
+    <input type="email" name="email" id="email">
+    </p>
+    <p>
+    <label for="password">Insira sua senha</label>
+    <input type="password" name="password" id="password">
+    </p>
+    <input type="submit" value="Entrar">
+    <br>
+    
+    <p>
+  </fieldset>
+  
+  Caso esteja efetuando seu acesso pela 1ª vez, acesse o link:
+  <a href="cadastro.php">Cadastrar acesso</a>
+</p>
 
   </form>
   
