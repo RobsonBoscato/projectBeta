@@ -1,0 +1,33 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: rgb(236, 255, 223);
+}
+
+header, footer {
+  background-color: rgb(121, 194, 154);
+  color: rgb(0, 0, 0);
+  font-weight: 400;
+  text-align: center;
+  margin: 0 4%;
+  padding: 10px 10px;
+}
+
+nav {
+  display: flex;
+  gap: 10px;
+}
+
+.center {
+padding: 2px 4%;
+}
+
+.center span {
+  font-weight: 600;
+  color: rgb(0, 0, 0);
+  padding-bottom: 20px;
+}
+
+footer img {
+  max-width: 50px;
+  max-height: 50px;
+}
