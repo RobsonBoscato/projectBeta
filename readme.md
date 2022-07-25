@@ -25,10 +25,13 @@ Adicionado o arquivo conexao.php para gerar comunicação entre o Banco de Dados
 Adicionado recursos a pagina login.php como:
 
 <ol>
- <li>verificação de campos vazios</li>
-<li>reset das variáveis para evitar sql injection</li> 
-<li>query junto ao DB e retorno da tabela e inicio de sessão;</li>
-<li>Adição/redirecionamento ao painel.php após validação do login.</li>
+ <li>Verificação de campos vazios na área de login;</li>
+<li>Reset das variáveis para evitar sql injection;</li> 
+<li>Query junto ao DB e retorno da tabela e inicio de sessão;</li>
+<li>Adição/redirecionamento ao painel.php após validação do login;</li>
+<li>Adição de logout, e redirecionamento ao index.php;</li>
+<li>Adicionado o protect.php com a finalidade de evitar acesso indevido a área logada via URL; </li>
+<li> </li>
 
 </ol>
 
