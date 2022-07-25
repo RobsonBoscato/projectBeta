@@ -16,4 +16,20 @@ Aviso via sms/e-mail, 24hrs antes do compromisso, e 1hora antes do inicio da ati
 
 Possibilidade de inclusão pelo administrador, como localização, horário e um resumo do evento via mídias;
 
+----
+
+Updates:
+
+Adicionado o arquivo conexao.php para gerar comunicação entre o Banco de Dados e o php;
+
+Adicionado recursos a pagina login.php como:
+
+<ol>
+ <li>verificação de campos vazios</li>
+<li>reset das variáveis para evitar sql injection</li> 
+<li>query junto ao DB e retorno da tabela e inicio de sessão;</li>
+<li>Adição/redirecionamento ao painel.php após validação do login.</li>
+
+</ol>
+
 Robson A Boscato

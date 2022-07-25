@@ -11,6 +11,7 @@
   <title>Project Beta</title>
   
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;800&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="style.css">
 
 </head>
@@ -26,13 +27,11 @@
 <body>
 
   <nav>
-
     <ul>
-      <li>Home <a href="index.php"></a></li>
-      <li>Sobre</li>
-      <li>Login</li>     
+      <li><a href="index.php">Home</a></li>
+      <li><a href="#"> Sobre </li></a>
+      <li><a href="login.php">Login</a></li>     
     </ul>
-
   </nav>
 
   <div class="center">
